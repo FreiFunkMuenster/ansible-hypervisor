@@ -1,23 +1,24 @@
-server_id: 82
+server_id: 156
 
 server_besitzer: "FFI"
 
 vm_config:
   installer:
-    name: debian_jessie_x64
-  cpus: 2
-  ram: 1536
+    name: debian_buster_x64
+  cpus: 4
+  ram: 4096
   disk: 
     size: 50
     bus: "virtio"
     sparse: "false"
-    format: "raw"
+    format: "qcow2"
     cache: "none"
   storage_pool: ffms
   started: True
   autostart: True
   network:
    - name: "br0"
+     setup_name: "virbr1"
      type: "bridge"
      model: "virtio"
-  multiqueue: 2
+  multiqueue: 4

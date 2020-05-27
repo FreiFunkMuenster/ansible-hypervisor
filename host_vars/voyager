@@ -42,7 +42,6 @@ network_shemes:
 
 virtual_machines:
 - name: "automatix"
-- name: "emscherl-02"
 - name: "webserver"
 - name: "streamer"
 - name: "ansible"
@@ -50,6 +49,5 @@ virtual_machines:
 - name: "unifi"
 - name: "unifi-legacy"
 - name: "karte"
-- name: "passbolt"
 
 hoster: "hetzner"
