@@ -4,9 +4,9 @@ server_besitzer: "FFI"
 
 vm_config:
   installer:
-    name: ubuntu_xenial_x64
+    name: debian_buster_x64
   cpus: 4
-  ram: 4096
+  ram: 2048
   disk: 
     size: 50
     bus: "virtio"

@@ -20,7 +20,6 @@ icinga			ansible_ssh_host=148.251.208.173	#remue
 bergstr-01              ansible_ssh_host=176.9.38.150           #unimatrixzero          ansible_ssh_port=222
 bergstr-map		ansible_ssh_host=176.9.38.150		#unimatrixzero		ansible_ssh_port=223
 projekt			ansible_ssh_host=176.9.38.158		#unimatrixzero
-emscherl-map		ansible_ssh_host=176.9.38.156		#unimatrixzero
 dnsmaster		ansible_ssh_host=176.9.38.163		#unimatrixzero
 emscherl-02		ansible_ssh_host=46.4.80.131		#voyager
 automatix		ansible_ssh_host=46.4.80.184		#voyager		ansible_ssh_port=22
@@ -32,3 +31,4 @@ unifi			ansible_ssh_host=46.4.80.179		#voyager		#Freifunk only!
 unifi-legacy		ansible_ssh_host=46.4.80.179		#voyager		#Freifunk only!
 karte			ansible_ssh_host=46.4.80.190		#voyager
 ldap			ansible_ssh_host=5.9.86.151		#deshyper-01		ansible_ssh_port=501
+idefix			ansible_ssh_host=176.9.38.156		#unimatrixzero

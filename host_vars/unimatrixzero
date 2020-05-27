@@ -44,6 +44,6 @@ virtual_machines:
 - name: "bergstr-01"
 - name: "bergstr-map"
 - name: "projekt"
-- name: "emscherl-map"
+- name: "idefix"
 - name: "dnsmaster"
 hoster: "hetzner"
